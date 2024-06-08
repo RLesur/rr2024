@@ -6,14 +6,15 @@ subtitle: |
   data science platform]{.orange}**
 author: |
   [InseeFrLab](https://github.com/InseeFrLab)
-date: today
+date: 2024-06-14
+lang: fr-FR
 slide-number: true
 footer: |
   **[onyxia.sh](https://www.onyxia.sh)**
 # uncomment for French presentations:
 #lang: fr
 # for blind readers:
-slide-tone: true
+slide-tone: false
 # for @olevitt:
 chalkboard: # press the B key to toggle chalkboard
   theme: whiteboard
@@ -21,8 +22,8 @@ chalkboard: # press the B key to toggle chalkboard
 #multiplex: true
 format:
   # pick the light mode (onyxia-revealjs) or the dark mode (onyxia-dark-revealjs)
-  onyxia-revealjs:
-  #onyxia-dark-revealjs:
+  #onyxia-revealjs:
+  onyxia-dark-revealjs:
     output-file: index.html
 # visual editor configuration:
 editor:
