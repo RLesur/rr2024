@@ -33,7 +33,7 @@ editor:
 
 ![](https://avatars.githubusercontent.com/u/19177171?v=4){fig-align="center"}
 
-- Ancien contributeur à la communauté R
+- Ancien contributeur à la communauté R (pagedown, utilitR)
 - Responsable du SSP Lab, le Lab de Data Science de l'Insee
 
 ## Les besoins de traitement de données à l'Insee
@@ -125,10 +125,9 @@ Au coeur :
 Ajoutez-y, au choix :
 
 - Une forge git, un registre d'images...
-- Un API manager
 - Une gouvernance des données, un catalogue de données...
 - Un catalogue de services
-- Des services de déploiement (sk8)...
+- Des services de déploiement (sk8), un API manager...
 
 ## SSP Cloud
 
