@@ -7,7 +7,7 @@
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.555">
 
   <meta name="author" content="Romain Lesur">
@@ -32,7 +32,7 @@
     }
   </style>
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css">
-  <link rel="stylesheet" href="_extensions/InseeFrLab/onyxia-dark/logo.css">
+  <link rel="stylesheet" href="_extensions/InseeFrLab/onyxia/logo.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -326,11 +326,11 @@
   </style>
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 </head>
-<body class="quarto-dark">
+<body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="_extensions/InseeFrLab/onyxia-dark/background-dark.svg" data-background-size="contain" class="quarto-title-block center">
+<section id="title-slide" data-background-image="_extensions/InseeFrLab/onyxia/background.svg" data-background-size="contain" class="quarto-title-block center">
   <h1 class="title">Le projet Onyxia</h1>
   <p class="subtitle"></p><p><strong><span class="orange">Comment tirer parti<br>
 des technologies cloud<br>
@@ -346,14 +346,14 @@ sans se faire enfermer ?</span></strong></p><p></p>
 
   <p class="date">2024-06-14</p>
 </section>
-<section id="qui-suis-je" class="slide level2" data-background-image="background-dark.svg" data-background-size="contain">
+<section id="qui-suis-je" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>Qui suis-je ?</h2>
 <ul>
 <li>Responsable du SSP Lab, le Lab de Data Science à l’Insee</li>
 <li>(ancien) contributeur à la communauté R</li>
 </ul>
 </section>
-<section id="les-besoins-de-traitement-de-données-à-linsee" class="slide level2" data-background-image="background-dark.svg" data-background-size="contain">
+<section id="les-besoins-de-traitement-de-données-à-linsee" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>Les besoins de traitement de données à l’Insee</h2>
 <ul>
 <li>Un millier de personnes touchant la donnée avec des langages de programmation (R, python…)</li>
@@ -362,7 +362,7 @@ sans se faire enfermer ?</span></strong></p><p></p>
 <li>L’infrastructure : frein ou facilitateur ?</li>
 </ul>
 </section>
-<section id="lévolution-de-linformatique-pour-le-traitement-de-données" class="slide level2" data-background-image="background-dark.svg" data-background-size="contain">
+<section id="lévolution-de-linformatique-pour-le-traitement-de-données" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>L’évolution de l’informatique pour le traitement de données</h2>
 <p>A l’Insee :</p>
 <ul>
@@ -372,7 +372,7 @@ sans se faire enfermer ?</span></strong></p><p></p>
 <li>2023 : technologies cloud</li>
 </ul>
 </section>
-<section id="les-enjeux" class="slide level2" data-background-image="background-dark.svg" data-background-size="contain">
+<section id="les-enjeux" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>Les enjeux</h2>
 <ul>
 <li>Puissance de calcul
@@ -392,7 +392,7 @@ sans se faire enfermer ?</span></strong></p><p></p>
 <li>Risque d’enfermement propriétaire</li>
 </ul>
 </section>
-<section id="les-opportunités-des-technologies-cloud" class="slide level2" data-background-image="background-dark.svg" data-background-size="contain">
+<section id="les-opportunités-des-technologies-cloud" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>Les opportunités des technologies cloud</h2>
 <ul>
 <li>Conteneurs (Docker)
@@ -412,7 +412,7 @@ sans se faire enfermer ?</span></strong></p><p></p>
 </ul></li>
 </ul>
 </section>
-<section id="ladn-du-projet-onyxia" class="slide level2" data-background-image="background-dark.svg" data-background-size="contain">
+<section id="ladn-du-projet-onyxia" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>L’ADN du projet Onyxia</h2>
 <ul>
 <li>Une plateforme orientée data science facilitant le passage en production</li>
@@ -422,18 +422,25 @@ sans se faire enfermer ?</span></strong></p><p></p>
 <li>Déployable n’importe où (cloud, on premises…)</li>
 </ul>
 </section>
-<section id="onyia-en-action" class="slide level2" data-background-image="background-dark.svg" data-background-size="contain">
+<section id="onyia-en-action" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>Onyia en action</h2>
 <iframe data-external="1" src="https://www.youtube.com/embed/FvpNfVrxBFM?si=Ekc0-3IXyv2imoVv&amp;autoplay=1" width="100%" height="85%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </section>
-<section id="des-choix-structurants" class="slide level2" data-background-image="background-dark.svg" data-background-size="contain">
+<section id="des-choix-structurants" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>Des choix structurants</h2>
+<p>A la fois techniques</p>
 <ul>
 <li>Kubernetes</li>
 <li>S3</li>
 </ul>
+<p>Mais qui ont aussi des conséquences pratiques pour l’utilisateur</p>
+<ul>
+<li>environnements de travail volatiles</li>
+<li>utiliser git</li>
+<li>utiliser S3</li>
+</ul>
 </section>
-<section id="ssp-cloud" class="slide level2" data-background-image="background-dark.svg" data-background-size="contain">
+<section id="ssp-cloud" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>SSP Cloud</h2>
 <p>Un datalab en ligne <a href="https://datalab.sspcloud.fr" class="uri">https://datalab.sspcloud.fr</a> pour</p>
 <ul>
@@ -445,7 +452,7 @@ sans se faire enfermer ?</span></strong></p><p></p>
 <li>un <a href="https://www.sspcloud.fr/formation">catalogue de formations</a> à la <em>data science</em></li>
 </ul>
 </section>
-<section id="la-communauté-onyxia" class="slide level2" data-background-image="background-dark.svg" data-background-size="contain">
+<section id="la-communauté-onyxia" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>La communauté Onyxia</h2>
 <p><a href="https://onyxia.sh">onyxia.sh</a></p>
 <ul>
