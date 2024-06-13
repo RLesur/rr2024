@@ -349,8 +349,8 @@ sans se faire enfermer ?</span></strong></p><p></p>
 <section id="qui-suis-je" class="slide level2" data-background-image="background.svg" data-background-size="contain">
 <h2>Qui suis-je ?</h2>
 <ul>
-<li>Responsable du SSP Lab, le Lab de Data Science à l’Insee</li>
-<li>(ancien) contributeur à la communauté R</li>
+<li>Responsable du SSP Lab, le Lab de Data Science de l’Insee</li>
+<li>(ancien) Contributeur à la communauté R</li>
 </ul>
 </section>
 <section id="les-besoins-de-traitement-de-données-à-linsee" class="slide level2" data-background-image="background.svg" data-background-size="contain">
@@ -408,7 +408,7 @@ sans se faire enfermer ?</span></strong></p><p></p>
 <li>Stockage objet (S3)
 <ul>
 <li>Facilite la gestion des données</li>
-<li>Facilite les usages de data science</li>
+<li>Facilite l’usage de la donnée</li>
 </ul></li>
 </ul>
 </section>
@@ -417,27 +417,55 @@ sans se faire enfermer ?</span></strong></p><p></p>
 <ul>
 <li>Une plateforme orientée data science facilitant le passage en production</li>
 <li>100% open source (licence MIT)</li>
-<li>Aucun enfermement propriétaire</li>
+<li>Aucun enfermement propriétaire
+<ul>
+<li>Onyxia ne doit pas devenir indispensable</li>
+</ul></li>
 <li>100% cloud native</li>
 <li>Déployable n’importe où (cloud, on premises…)</li>
 </ul>
 </section>
-<section id="onyia-en-action" class="slide level2" data-background-image="background.svg" data-background-size="contain">
-<h2>Onyia en action</h2>
+<section id="onyxia-en-action" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>Onyxia en action</h2>
 <iframe data-external="1" src="https://www.youtube.com/embed/FvpNfVrxBFM?si=Ekc0-3IXyv2imoVv&amp;autoplay=1" width="100%" height="85%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </section>
-<section id="des-choix-structurants" class="slide level2" data-background-image="background.svg" data-background-size="contain">
-<h2>Des choix structurants</h2>
-<p>A la fois techniques</p>
+<section id="les-choix-structurants" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>Les choix structurants</h2>
+<p>Des choix techniques</p>
 <ul>
 <li>Kubernetes</li>
 <li>S3</li>
+<li>(Vault)</li>
 </ul>
 <p>Mais qui ont aussi des conséquences pratiques pour l’utilisateur</p>
 <ul>
 <li>environnements de travail volatiles</li>
 <li>utiliser git</li>
 <li>utiliser S3</li>
+</ul>
+</section>
+<section id="onyxia-une-interface-comme-liant-technique" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>Onyxia : une interface comme liant technique</h2>
+
+<img data-src="img/onyxia-components.png" class="r-stretch"></section>
+<section id="un-large-catalogue-de-services" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>Un large catalogue de services</h2>
+
+<img data-src="img/onyxia-catalog.png" class="r-stretch"></section>
+<section id="onyxia-ne-fait-et-ne-fera-pas-tout" class="slide level2" data-background-image="background.svg" data-background-size="contain">
+<h2>Onyxia ne fait et ne fera pas tout</h2>
+<p>Au coeur :</p>
+<ul>
+<li>Lanceur de charts helm</li>
+<li>Explorateur de fichiers et de données</li>
+</ul>
+<p>Ajoutez-y, au choix :</p>
+<ul>
+<li>Une forge git</li>
+<li>Un registre d’images</li>
+<li>Un catalogue de données</li>
+<li>Un catalogue de services</li>
+<li>Des services de déploiement (sk8)</li>
 </ul>
 </section>
 <section id="ssp-cloud" class="slide level2" data-background-image="background.svg" data-background-size="contain">
