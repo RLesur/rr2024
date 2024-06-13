@@ -62,11 +62,10 @@ A l'Insee :
   * MLOps (orchestration/monitoring)
 - Risque d'enfermement propriétaire
 
-## Les opportunités offertes par les technologies cloud
+## Les opportunités des technologies cloud
 
 - Conteneurs (Docker)
-  * Flexibles
-  * Portables 
+  * Flexibles et portables 
   * Facilitent la reproductibilité
 - Orchestrateur de conteneurs (Kubernetes)
   * Passage à l'échelle
