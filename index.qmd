@@ -31,8 +31,10 @@ editor:
 
 ## Qui suis-je ?
 
+![](https://avatars.githubusercontent.com/u/19177171?v=4){fig-align="center"}
+
+- Ancien contributeur à la communauté R
 - Responsable du SSP Lab, le Lab de Data Science de l'Insee
-- (ancien) Contributeur à la communauté R
 
 ## Les besoins de traitement de données à l'Insee
 
@@ -60,7 +62,7 @@ A l'Insee :
 - Le passage en production
   * Déploiement d'applications/API
   * MLOps (orchestration/monitoring)
-- Risque d'enfermement propriétaire
+- [**Risque d'enfermement propriétaire**]{.orange}
 
 ## Les opportunités des technologies cloud
 
@@ -103,11 +105,15 @@ Mais qui ont aussi des conséquences pratiques pour l'utilisateur
 
 ## Onyxia : une interface comme liant technique
 
-![](img/onyxia-components.png)
+![](img/onyxia-components.png){fig-align="center"}
+
+## Une interface qui favorise l'autonomie
+
+![](img/onyxia-launcher.png){fig-align="center"}
 
 ## Un large catalogue de services
 
-![](img/onyxia-catalog.png)
+![](img/onyxia-catalog.png){fig-align="center"}
 
 ## Onyxia ne fait et ne fera pas tout
 
@@ -119,10 +125,11 @@ Au coeur :
 Ajoutez-y, au choix :
 
 - Une forge git
+- Un API manager
 - Un registre d'images
-- Un catalogue de données
+- Une gouvernance des données, un catalogue de données...
 - Un catalogue de services
-- Des services de déploiement (sk8)
+- Des services de déploiement (sk8)...
 
 ## SSP Cloud
 
@@ -142,3 +149,5 @@ Un datalab en ligne <https://datalab.sspcloud.fr> pour
 - Un [slack](https://join.slack.com/t/3innovation/shared_invite/zt-1hnzukjcn-6biCSmVy4qvyDGwbNI~sWg)
 - _Community meetings_ chaque dernier vendredi du mois
 - Retrouvez les acteurs ayant adopté Onyxia : Insee, Statistics Norway, Mercator Ocean International, GENES...
+
+## Questions ?
