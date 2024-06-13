@@ -88,8 +88,16 @@ A l'Insee :
 
 ## Des choix structurants
 
+A la fois techniques
+
 - Kubernetes
 - S3
+
+Mais qui ont aussi des conséquences pratiques pour l'utilisateur
+
+- environnements de travail volatiles
+- utiliser git
+- utiliser S3
 
 ## SSP Cloud
 
