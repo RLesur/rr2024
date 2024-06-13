@@ -41,7 +41,7 @@ editor:
 - Un millier de personnes touchant la donnée avec des langages de programmation (R, python...)
 - Depuis plus de 15 ans, un écosystème en très forte évolution
 - Développement de la _data science_ : des besoins plus vastes et hétérogènes
-- L'infrastructure : frein ou facilitateur ?
+- L'infrastructure : facilitateur ou frein pour l'innovation ?
 
 ## L'évolution de l'informatique pour le traitement de données
 
@@ -73,7 +73,7 @@ A l'Insee :
   * Passage à l'échelle
   * Facilite le passage en production
 - Stockage objet (S3)
-  * Facilite la gestion des données
+  * Facilite la gestion des données (_data lake_)
   * Facilite l'usage de la donnée
 
 ## L'ADN du projet Onyxia
@@ -83,7 +83,7 @@ A l'Insee :
 - Aucun enfermement propriétaire
   * Onyxia ne doit pas devenir indispensable
 - 100% cloud native
-- Déployable n'importe où (cloud, on premises...)
+- Déployable n'importe où (clouds publics, on premises...)
 
 ## Onyxia en action
 
@@ -124,9 +124,8 @@ Au coeur :
 
 Ajoutez-y, au choix :
 
-- Une forge git
+- Une forge git, un registre d'images...
 - Un API manager
-- Un registre d'images
 - Une gouvernance des données, un catalogue de données...
 - Un catalogue de services
 - Des services de déploiement (sk8)...
@@ -142,12 +141,16 @@ Un datalab en ligne <https://datalab.sspcloud.fr> pour
 - un service en _best effort_
 - un [catalogue de formations](https://www.sspcloud.fr/formation) à la _data science_
 
-## La communauté Onyxia
-
-[onyxia.sh](https://onyxia.sh)
+## La communauté Onyxia [onyxia.sh](https://onyxia.sh)
 
 - Un [slack](https://join.slack.com/t/3innovation/shared_invite/zt-1hnzukjcn-6biCSmVy4qvyDGwbNI~sWg)
 - _Community meetings_ chaque dernier vendredi du mois
 - Retrouvez les acteurs ayant adopté Onyxia : Insee, Statistics Norway, Mercator Ocean International, GENES...
+
+## L'avenir
+
+- Onyxia retenu par Eurostat comme logiciel de référence pour créer des datalabs en IA/ML
+- De nombreux acteurs publics et privés s'intéressent à Onyxia
+- Des ESN déjà positionnées pour aider au déploiement d'Onyxia
 
 ## Questions ?
