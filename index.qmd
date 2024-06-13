@@ -31,8 +31,8 @@ editor:
 
 ## Qui suis-je ?
 
-- Responsable du SSP Lab, le Lab de Data Science à l'Insee
-- (ancien) contributeur à la communauté R
+- Responsable du SSP Lab, le Lab de Data Science de l'Insee
+- (ancien) Contributeur à la communauté R
 
 ## Les besoins de traitement de données à l'Insee
 
@@ -72,32 +72,57 @@ A l'Insee :
   * Facilite le passage en production
 - Stockage objet (S3)
   * Facilite la gestion des données
-  * Facilite les usages de data science
+  * Facilite l'usage de la donnée
 
 ## L'ADN du projet Onyxia
 
 - Une plateforme orientée data science facilitant le passage en production
 - 100% open source (licence MIT)
 - Aucun enfermement propriétaire
+  * Onyxia ne doit pas devenir indispensable
 - 100% cloud native
 - Déployable n'importe où (cloud, on premises...)
 
-## Onyia en action
+## Onyxia en action
 
 {{< video https://www.youtube.com/embed/FvpNfVrxBFM?si=Ekc0-3IXyv2imoVv&autoplay=1 width="100%" height="85%" >}}
 
-## Des choix structurants
+## Les choix structurants
 
-A la fois techniques
+Des choix techniques
 
 - Kubernetes
 - S3
+- (Vault)
 
 Mais qui ont aussi des conséquences pratiques pour l'utilisateur
 
 - environnements de travail volatiles
 - utiliser git
 - utiliser S3
+
+## Onyxia : une interface comme liant technique
+
+![](img/onyxia-components.png)
+
+## Un large catalogue de services
+
+![](img/onyxia-catalog.png)
+
+## Onyxia ne fait et ne fera pas tout
+
+Au coeur :
+
+- Lanceur de charts helm
+- Explorateur de fichiers et de données
+
+Ajoutez-y, au choix :
+
+- Une forge git
+- Un registre d'images
+- Un catalogue de données
+- Un catalogue de services
+- Des services de déploiement (sk8)
 
 ## SSP Cloud
 
