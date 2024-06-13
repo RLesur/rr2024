@@ -86,7 +86,7 @@ A l'Insee :
 
 {{< video https://www.youtube.com/embed/FvpNfVrxBFM?si=Ekc0-3IXyv2imoVv&autoplay=1 width="100%" height="85%" >}}
 
-## Des pré-requis
+## Des choix structurants
 
 - Kubernetes
 - S3
