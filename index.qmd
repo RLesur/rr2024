@@ -33,7 +33,7 @@ editor:
 
 ![](https://avatars.githubusercontent.com/u/19177171?v=4){fig-align="center"}
 
-- Ancien contributeur à la communauté R (pagedown, utilitR)
+- Ancien contributeur à la communauté R (pagedown, [utilitR](https://book.utilitr.org/))
 - Responsable du SSP Lab, le Lab de Data Science de l'Insee
 
 ## Les besoins de traitement de données à l'Insee
@@ -47,7 +47,8 @@ editor:
 
 A l'Insee :
 
-- 1950s-1990s : ordinateurs centraux (mainframes)
+- 1940s-1960s : mécanographie
+- 1960s-1990s : ordinateurs centraux (mainframes)
 - 1990s-2010s : ordinateurs personnels (PC)
 - 2010s-... : serveurs mutualisés/bureau à distance
 - 2023 : technologies cloud
@@ -153,3 +154,6 @@ Un datalab en ligne <https://datalab.sspcloud.fr> pour
 - Des ESN déjà positionnées pour aider au déploiement d'Onyxia
 
 ## Questions ?
+
+
+Retrouvez cette présentation : <https://rlesur.github.io/rr2024>
